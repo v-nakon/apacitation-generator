@@ -1,0 +1,193 @@
+body {
+  background: #ecebf0;
+  background: url(../images/square-with-rounded-edges.png) no-repeat;
+  background-size: 60%;
+  background-position: right top;
+}
+.container {
+  width: 1370px;
+  margin: auto;
+}
+.logo {
+  margin-top: 40px;
+}
+.heading {
+  width: 445px;
+  height: 137px;
+  font-family: Montserrat Alternates;
+  font-weight: bold;
+  font-size: 50px;
+  line-height: 146.28%;
+  color: #232642;
+  margin-top: 234px;
+}
+.subheading {
+  width: 579px;
+  height: 65px;
+  font-family: Montserrat Alternates;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 35px;
+  color: #232642;
+  margin-top: 30px;
+}
+.btn-heading {
+  width: 154px;
+  height: 22px;
+  font-family: Montserrat;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  color: #232642;
+  margin-right: 95px;
+}
+.btn-arrow {
+  display: flex;
+  margin-top: 45px;
+}
+nav {
+  display: flex;
+  width: 265px;
+  justify-content: space-between;
+  margin-top: 40px;
+  margin-left: auto;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+}
+.nav-menu {
+  font-family: Montserrat Alternates;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  color: #ffffff;
+}
+.girl-form {
+  display: flex;
+  margin-top: 174px;
+}
+.girl {
+  width: 328px;
+  height: 409px;
+  margin-right: 70px;
+  margin-top: 240px;
+}
+.for-title-form {
+  width: 401px;
+  height: 85px;
+  background: #f8f7fc;
+  border-radius: 20px 20px 0px 0px;
+}
+.title-form {
+  font-family: Montserrat Alternates;
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 35px;
+  padding: 26px 0 0 30px;
+}
+.forms {
+  width: 100%;
+  background-color: white;
+}
+.select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: url(../images/form-arrow.svg) no-repeat right 5px center / 15px auto;
+  width: 341px;
+  border: 0;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  color: #232642;
+  padding: 5px 30px 5px 10px;
+  margin: 40px 0 0 30px;
+}
+.line {
+  width: 341px;
+  height: 2px;
+  background: #e4e8f0;
+  margin: 17px 0 -25px 30px;
+}
+.search {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: url(../images/form-arrow.svg) no-repeat right 5px center / 15px auto;
+  width: 341px;
+  border: 0;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  color: #232642;
+  padding: 5px 30px 5px 10px;
+  margin: 40px 0 0 30px;
+  background: url(../images/form-search.svg) no-repeat right 5px center / 15px auto;
+}
+.plus {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: url(../images/form-arrow.svg) no-repeat right 5px center / 15px auto;
+  width: 341px;
+  border: 0;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  color: #232642;
+  padding: 5px 30px 5px 10px;
+  margin: 40px 0 0 30px;
+  background: url(../images/form-plus.svg) no-repeat right 5px center / 15px auto;
+}
+input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-results-button,
+input[type="search"]::-webkit-search-results-decoration {
+  -webkit-appearance: none;
+}
+.for-btn {
+  width: 401px;
+  background: #f8f7fc;
+  margin-top: 60px;
+}
+.btn {
+  width: 341px;
+  height: 60px;
+  background: #f9703e;
+  border: 0;
+  border-radius: 100px;
+  font-family: Montserrat;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  color: #ffffff;
+  margin: 35px 0 0 30px;
+}
+.max-arrow {
+  display: flex;
+  margin-left: 144px;
+  padding-top: 25px;
+  padding-bottom: 24px;
+}
+.max {
+  font-family: Montserrat Alternates;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  color: #232642;
+  margin-right: 15px;
+}
+.for-max {
+  width: 401px;
+  background: #f8f7fc;
+  margin-top: 60px;
+  border-radius: 0 0 20px 20px;
+  margin: 0;
+}
