@@ -8,7 +8,7 @@ body {
   margin: auto;
 }
 
-.container {
+.container-head {
   background: url(../images/square-with-rounded-edges.png) no-repeat;
   width: 100%;
   height: 1320px;
@@ -73,8 +73,7 @@ header {
 
 nav {
   display: flex;
-  width: 265px;
-  justify-content: space-between;
+  justify-content: flex-end;
   margin-top: 40px;
   margin-left: auto;
 }
@@ -85,6 +84,7 @@ nav {
   font-size: 16px;
   line-height: 20px;
   color: #ffffff;
+  margin-left: 73px;
 }
 
 .girl-form {
@@ -257,10 +257,11 @@ main {
 }
 
 .question {
-  background-image: url(../images/questions.svg);
+  background: url(../images/questions.svg) no-repeat;
   width: 1365px;
   height: 565px;
-  margin: 203px auto;
+  margin: 203px auto 0 auto;
+  padding-bottom: 200px;
   display: flex;
 }
 
@@ -284,4 +285,74 @@ main {
   line-height: 35px;
   color: @font-text;
   margin-top: 17px;
+}
+
+.container-scroll {
+  width: @width-container;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 160px 0;
+}
+
+.scroll {
+  overflow: auto;
+  width: 677px;
+  height: 670px;
+  padding: 5px;
+  border: 0;
+}
+
+.scroll-title {
+  .main-title;
+  width: 517px;
+}
+
+.scroll-text {
+  .main-text;
+  width: 584px;
+}
+
+.container-scroll ::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* Track */
+.container-scroll ::-webkit-scrollbar-track {
+  background: #dddaf4;
+  border-radius: 10px;
+}
+
+/* Handle */
+.container-scroll ::-webkit-scrollbar-thumb {
+  background-color: #3e328a;
+  border-radius: 10px;
+}
+
+.test {
+  background-attachment: fixed;
+  background-position: center;
+}
+
+footer {
+  background: #433795;
+}
+
+.container-footer {
+  height: 121px;
+  width: @width-container;
+  margin: auto;
+  display: flex;
+  align-items: center;
+}
+
+.copyright {
+  font-family: @font-montserrat-alternates;
+  font-size: 18px;
+  line-height: 22px;
+  color: #f8f7fc;
+}
+
+.footer {
+  margin-top: 0;
 }
